@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.layout.assig18_2.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" "
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView android:id="@+id/SMSList"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp" />
+</RelativeLayout>
+    <!-- RelativeLayout is a view group that displays child views in relative positions.
+     TextView:A user interface element that displays text to the user
+     Listview:ListView is a view group that displays a list of scrollable items.
+             ID-Any View object may have an integer ID associated with it, to uniquely identify the View within the tree.                       When the application is compiled, this ID is referenced as an integer, but the ID is typically assigned in the layout XML file
+                     as a string, in the id attribute.This is an XML attribute common to all View objects (defined by the View class) and you will use
+                           it very often
+                           wrap_content tells your view to size itself to the dimensions required by its content.
+                           match_parent tells your view to become as big as its parent view group will allow.
+                           TextSize will give size of the text-->
